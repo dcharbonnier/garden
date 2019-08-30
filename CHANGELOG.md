@@ -1,4 +1,27 @@
 
+<a name="v0.10.7"></a>
+## [v0.10.7](https://github.com/garden-io/garden/compare/v0.10.6...v0.10.7) (2019-08-30)
+
+### Bug Fixes
+
+* **config:** relax constraints on variable and output names ([442f8f80](https://github.com/garden-io/garden/commit/442f8f80))
+* **container:** allow any string as ingress path ([79202280](https://github.com/garden-io/garden/commit/79202280))
+* **k8s:** allow user to configure own storageClass for build-sync volume ([fc0037f9](https://github.com/garden-io/garden/commit/fc0037f9))
+* **logger:** concat messages when formatting for json ([92dcb93f](https://github.com/garden-io/garden/commit/92dcb93f))
+* **openfaas:** build function before getting container build status ([4693f13b](https://github.com/garden-io/garden/commit/4693f13b))
+* **vcs:** .gitignore files were not respected ([5c08d614](https://github.com/garden-io/garden/commit/5c08d614))
+
+### Features
+
+* add terraform provider and example with basic GKE setup ([32651d84](https://github.com/garden-io/garden/commit/32651d84))
+* **core:** expose service and task dependency outputs at runtime ([#1123](https://github.com/garden-io/garden/issues/1123)) ([fca6a72a](https://github.com/garden-io/garden/commit/fca6a72a))
+* **k8s:** allow setting custom kubeconfig path ([8b4a6d5e](https://github.com/garden-io/garden/commit/8b4a6d5e))
+
+### Improvement
+
+* **logger:** store all message states ([b68f3435](https://github.com/garden-io/garden/commit/b68f3435))
+
+
 <a name="v0.10.6"></a>
 ## [v0.10.6](https://github.com/garden-io/garden/compare/v0.10.5...v0.10.6) (2019-08-20)
 
